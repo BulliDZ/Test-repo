@@ -3,7 +3,7 @@ import time
 
 
 class TestStore:
-    def test_browser_view(self, browser):
+    def test_basket_button(self, browser):
         browser.implicitly_wait(10)
         link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
         browser.get(link)
